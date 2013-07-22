@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# Created By Patrick Sycz #
+
+# THIS SCRIPT EXECUTES THE SNAKE GAME AND    #
+# ENSURES CURSOR AND KEY ECHO IS TURNED BACK #
+# ON. UPDATED 04/19/2012                     #
+
+# Turns off the keyboard echo and cursor #
+# UPDATED - GAME NOW DOES SCRIPTING#
+#stty -echo
+#setterm -cursor off
+# Starts the game #
+cd game_storage
+./snake
+cd ..
+# Turns the cursor and keyboard echo back on #
+setterm -cursor on
+stty echo

@@ -1,0 +1,92 @@
+V "GNAT Lib v6.2"
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnn
+
+U game_engine%b		game_engine.adb		20ddcccf NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U game_engine%s		game_engine.ads		8cd3640d EE NE OO PK IL
+W ada.tags%s		a-tags.adb		a-tags.ali
+
+D ada.ads		20080522031727 9c7dd3ea
+D a-except.ads		20080522031647 b54b55de
+D a-finali.ads		20080522031650 9eaacebd
+D a-filico.ads		20080522031649 9299732a
+D a-flteio.ads		20080522031650 3407344a
+D a-inteio.ads		20080522031650 03bc737c
+D a-ioexce.ads		20080522031652 be0900a0
+D a-stream.ads		20080522031703 34aca5be
+D a-tags.ads		20080522031712 bfa07446
+D a-textio.ads		20080522031713 bc6e78fe
+D a-tiflio.ads		20080522031716 5d91823c
+D a-tiinio.ads		20080522031716 949a7272
+D a-unccon.ads		20080522031717 51e09df2
+D game_engine.ads	20120418195321 8cd3640d
+D game_engine.adb	20120418195401 27db970a
+D interfac.ads		20080522031816 a69cad5c
+D i-cstrea.ads		20080522031813 e1e064a9
+D system.ads		20080522032001 53113720
+D s-crtl.ads		20080522031842 997234a1
+D s-exctab.ads		20080522031843 5c1c61ae
+D s-ficobl.ads		20080522031845 8bb681e5
+D s-finimp.ads		20080522031846 9449f4cb
+D s-finroo.ads		20080522031846 1408f9d1
+D s-parame.ads		20080522031916 f32e56e9
+D s-secsta.ads		20080522031919 7bae3621
+D s-soflin.ads		20080522031920 0c6fd39d
+D s-stache.ads		20080522031922 257b3be8
+D s-stalib.ads		20080522031922 52b793d5
+D s-stoele.ads		20080522031923 ed966df3
+D s-stoele.adb		20080522031923 e9998c78
+D s-stratt.ads		20080522031924 fef7c1da
+D s-traent.ads		20080522031936 bd5f2753
+D s-unstyp.ads		20080522031937 c0f9fae5
+D s-wchcon.ads		20080522031943 ab028799
+X 1 ada.ads
+16K9*Ada 19e8 15|1r6 1r19 1r40 2r5 2r18 2r39
+X 5 a-flteio.ads
+20K13*Float_Text_IO[11|48] 15|1w44 2r43
+X 6 a-inteio.ads
+18K13*Integer_Text_IO[12|48] 15|1w23 2r22
+X 10 a-textio.ads
+51K13*Text_IO 483e16 15|1w10 2r9
+211U14*Put 15|18r3
+245U14*Put 15|10r3 16r3 20r3 27r22 28r22 29r22 30r22 31r22 32r22 33r22 34r22
+. 35r26 36r26 37r26 38r26 39r26 40r26 41r26 42r26 43r26 52r22 53r22 54r22
+. 55r22 56r22 57r22 58r22 59r22 60r26 61r26 62r26 63r26 64r26 65r26 66r26
+. 67r26 68r26
+X 12 a-tiinio.ads
+68U14*Put 15|17r3[6|18] 19r3[6|18]
+X 14 game_engine.ads
+9K9*game_engine 41l5 41e16 15|3b14 73l5 73t16
+12E6*colorType 14e53 31r33 36r33 15|23r33 48r33
+12n20*red{12E6} 15|28r10 53r10
+12n25*blue{12E6} 15|31r10 56r10
+12n31*green{12E6} 15|29r10 54r10
+12n38*magenta{12E6} 15|32r10 57r10
+12n47*cyan{12E6} 15|33r10 58r10
+12n53*yellow{12E6} 15|30r10 55r10
+12n61*white{12E6} 15|34r10 59r10
+12n68*black{12E6} 15|27r10 52r10
+13n20*boldRed{12E6} 15|36r10 61r10
+13n29*boldBlue{12E6} 15|39r10 64r10
+13n39*boldGreen{12E6} 15|37r10 62r10
+13n50*boldMagenta{12E6} 15|40r10 65r10
+13n63*boldCyan{12E6} 15|41r10 66r10
+14n20*boldYellow{12E6} 15|38r10 63r10
+14n32*boldWhite{12E6} 15|42r10 67r10
+14n43*boldBlack{12E6} 15|35r10 60r10
+17I9*coordType{integer} 27r29 15|13r29
+22U11*resetTerminal 15|7b11 11l5 11t18
+27U11*changeCoord 27>23 27>25 15|13b11 21l5 21t16
+27i23 x{17I9} 15|13b23 19r7
+27i25 y{17I9} 15|13b25 17r7
+31U11*setForeground 31>25 15|23b11 46l5 46t18
+31e25 color{12E6} 15|23b25 26r8
+36U11*setBackground 36>25 15|48b11 71l5 71t18
+36e25 color{12E6} 15|48b25 51r8
+

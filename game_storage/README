@@ -1,0 +1,43 @@
+Created by Patrick J. Sycz
+
+Welcome to the Snake README. This will teach you everything you need to know
+about the game. This game is run from a script. The actual game and game files
+are located in the current directory's folder "game_storage/" All code is open
+source and can be altered as you wish. Have fun playing! Feel free to leave 
+any comments or ideas in the folder "comments"
+
+##################  Installation  ###################
+Just type 'make' and it will install the game. The  
+if it doesn't work. type 'make clean'. That will
+un-install the game. Then type 'make build' to 
+re-install it.
+#####################################################
+
+###################   Start    ######################
+To start the game, run the script 'play_snake'. 
+  ./play_snake
+#####################################################
+
+###################  Controls  ######################
+All menu actions are labeled appropriately.
+
+How to navigate the menus:
+'i' (the "i" key)   =  up
+'k' (the "k" key)   =  down
+' ' (the space bar) =  selection
+
+How to maneuver the snake on screen:
+'i'  =  up
+'k'  =  down
+'j'  =  left
+'l'  =  right
+'p'  =  pause
+ESC  =  exit to menu
+######################################################
+
+###################  Display  ########################
+The recommended window size is 80x27 or larger.
+80 width
+27 heigth
+######################################################
+
